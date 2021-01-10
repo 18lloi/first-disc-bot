@@ -22,5 +22,8 @@ class MyClient(discord.Client):
         if message.content == 'hi there':
             await message.channel.send('hi there!')
 
+        if message.content == "testing":
+            await message.channel.send("it works :smile:")
+
 client = MyClient()
 client.run(token)

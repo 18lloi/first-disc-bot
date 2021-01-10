@@ -1,5 +1,6 @@
 import discord
 import json
+import os
 
 try:
     with open('config.json', 'r') as f:
